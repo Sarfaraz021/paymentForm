@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="Payment_form.css">
+</head>
+<div class="Container">
+    <body>
+        <form action="">
+            <header>
+                <h1 class="Main_Heading">PAYMENT FORM</h1>
+            </header>
+            <hr>
+            <main>
+            <section>
+                <h2>CONTACT</h2>
+                    <div>
+                        <p>NAME: * <input type="text" Name ="name" placeholder="Write your name here" required> </p>
+                    </div>
+        
+                    <fieldset>
+                        <legend>GENDER:</legend>
+                        <label>
+                            <input type="radio" name="Gender" id="male" required>Male
+                        </label>
+                        <label>
+                            <input type="radio" name="Gender" id="female" required>Female
+                        </label>
+                    </fieldset>
+                    <br>
+              
+                    <div>
+                        ADDRESS: *<textarea name="address" id="address" cols="50" rows="6" required>
+                        </textarea>
+                        <br><br>
+                        EMAIL: *<input type="email" name="email" id="email" placeholder="safii@gmail.com" required>
+                        <br><br>
+                        PINCODE: <input type="number" name="pincode" id="pincode" placeholder="9800" required>
+                    </div>
+                </section>
+    
+                <section>
+                    <h2>PAYMENT INFORMATION</h2>
+                    <div>
+                        CARD TYPE 
+                        <select name="card type" id="card type" required>
+                            <option value="">--Select a Card Type--</option> 
+                            <option value="Visa">Visa</option>
+                            <option value="Atm">Atm</option>
+                            <option value="Masters">Masters</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <br><br>
+                        CARD NUMBER <input type="number" name="card number" id="card number" placeholder="e.g 03590010883151012" required>
+                        <br><br>
+                        EXPIRATION DATE <input type="date" name="expiry_date" id="expiry_date" required>
+                        <br><br>
+                        CVV <input type="password" name="password" id="password" placeholder="123" required>
+                        <br><br>
+                       <input type="submit" value="Pay Now">
+                    </div>
+    
+    
+                </section>
+        
+            </main>
+            <footer>
+               <p>Thanks....</p>
+            </footer>
+                    
+        </form>
+        
+    </body>
+</div>
+
+
+
+</html>
